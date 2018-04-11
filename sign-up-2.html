@@ -1,0 +1,100 @@
+<html>
+<head><title>Recruiter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="sign-up.css"/>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            background-color: black;
+            
+          }
+          .row.first{
+            background-color:goldenrod;
+          }
+          .row{
+            width:100%;
+          }
+          .row.nav{
+              background-color: black;
+             
+          }
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+          .topnav a.active {
+            background-color:goldenrod;
+            color: white;
+          }
+          .right a:hover{
+              color:white;
+              background-color:  goldenrod;
+          }
+           .row.first{
+               background-color: goldenrod;
+               height:10%;
+               top:0%;
+               
+           }
+           h1{
+               color:white;
+           }
+           .row.middle{
+               height:60%;
+           }
+        .row.bottom{
+            height:30%;
+            background-color: goldenrod;
+        }
+       
+        </style>
+</head>
+<body>
+        <div class="container">
+                <div class="row first text-center">
+                    <h1>Portal</h1>
+                </div>
+                <div class="row nav">
+                    <div class="topnav">
+                        <a class="active" href="index.html">Home</a>
+                        <a href="#partners"> Our Partners</a>
+                        <a href="join.html">Search</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                      </div>
+                  
+                </div>
+                <div class="row fn">
+
+                </div>
+                <div class="row middle">
+                        <h1 align="center">Applicant</h1>
+                        <table>
+                            <tr><td><label class="label1">First Name</label></td><td><input type="text" name="name"/></td></tr>
+                            <tr><td><label>Last Name</label></td><td><input type="text" name="lastname"/></td></tr>
+                            <tr><td><label>Username</label></td><td><input type="text" name="username"/></td></tr>
+                            <tr><td><label>Password</label></td><td><input type="password" name="password"/></td></tr>
+                            <tr><td><label>Date Of Birth</label></td><td><input type="date"  text="none" name="dob"/></td></tr>
+                            <tr><td><label>E-Mail</label></td><td><input type="text" name="email"/></td></tr>
+                        </table><br>
+                        <input type="checkbox" id="chck"><label id="l" for="chk"> I hereby agree to all terms and conditions.</label><br>
+                        <br>
+                        <button class="button sign-up">sign up</button>
+                        
+                    </div>
+                    <div class=" row bottom">
+            
+                    </div>
+            </div>
+</body>
+</html>

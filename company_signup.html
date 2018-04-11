@@ -1,0 +1,61 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+   
+  
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Job Portal</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Newbie</a></li>
+      <li><a href="#">Company</a></li>
+    </ul>
+  </div>
+</nav>
+  
+   
+<div class="container text-center">
+
+    <form action="new_company" method="post">
+  <h2>Company Sign-up</h2><br><br><br>
+  <table>
+ <tr> <td>Name: </td>
+  <td><input type="text" size="20" name="name"></td>
+  </tr>
+  <tr><td>Type: </td><td><select name="type" required>
+  <option value="it">IT</option>
+  <option value="Sing">Singing</option>
+  <option value="Photography">Photography</option></select>
+</td></tr>
+  <tr><td>Origin: <select name="origin" required></td>
+      <td><option value="India">India</option>
+  <option value="USA">USA</option>
+  <option value="USA">Australia</option>
+  <option value="USA">Canada</option></select>
+  </td></tr>
+  <tr><td>HQ: </td><td><input type="text" name="hq" required></td></tr>
+  <tr><td>Is it a parent company ?</td>
+      <td><select name="parent">
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+  </select></td>
+</tr>
+  <tr><td>Email: </td><td><input type="text" placeholder="@xyz.com" name="email" required></p>
+  </td></tr><tr><input type="file" id="myFile"></tr>
+  <tr><input type="submit" value="Sign Up"></tr>
+</table>    
+</form>
+  
+  </div>
+
+</body>
+</html>

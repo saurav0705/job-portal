@@ -1,0 +1,86 @@
+<style>
+        img{
+            margin-left: 5%;
+        }
+        button{
+            height:12%;
+        /* width:14%; */
+        width: 140px;
+        -webkit-transition-duration: 0.4s;
+        border:2px;
+        border: 2px solid white;
+        padding: 0%;
+        font-size:24px;
+        font-family: arial,bold;
+        text-align: center;
+        
+        
+        }
+    .button1{
+        color:white;
+        background-image: url(3.1.jpg);
+        
+        
+    }
+    .button1:hover{
+        color:red;
+        background-image: url(3.4.jpg);
+        background-color: green;
+        font-family: arial,bold;
+        border: 2px solid red;
+    }
+    .row.frst{
+        height:10%;
+    }
+    .button2{
+        color:white;
+        background-image:url(3.1.jpg);
+        
+    }
+    .button2:hover{
+        background-image:url(3.4.jpg);
+        color:red;
+        font-family: arial,bold;
+        background-color: green;
+        border: 2px solid red;
+    }
+    .button3{
+        color:white;
+        background-image:url(3.1.jpg);
+        
+    }
+    .button3:hover{
+        background-image:url(3.4.jpg);
+        color:red;
+        font-family: arial,bold;
+        background-color: green;
+        border: 2px solid red;
+    }
+    
+    body{
+        height:100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+    h1{
+        color:white;
+        font-size:90px;
+        opacity: 1;
+        font-family: arial,bold;
+        font: -1px 0 balck,0 1px black,1px 0 black,0 -1px black;
+        transition-duration: 5s;
+        
+    }
+    h1:hover
+    {
+        color:yellow;
+        transition-duration: 5s;
+    }
+    body{
+        background-image: url(bg/3.jpg);
+    }
+    
+    </style>
